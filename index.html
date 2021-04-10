@@ -5,43 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7cb22acf4d.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Ecommerce</title>
   </head>
+
   <body>
     <header class="container main-header">
-      <div class="container-logo">
-        <h1>
-          <img src="slices/logo.png" alt="logo" />
-        </h1>
-        <span>ECOMMERCE</span>
-      </div>
+      <div class="row">
+        <div class="menu-items">
+          <h1>
+            <img src="slices/logo.png" alt="logo" />
+          </h1>
+          <span>Enviar para</span>
 
-      <div class="menu-items">
-        <span>Enviar para</span>
-        <span
-          ><img src="slices/location-icon.png" alt="ícone de localização"
-        /></span>
-        <span>São Paulo, São Paulo</span>
-        <input type="text" placeholder="O que você está procurando ?" />
-        <span>
-          <img src="slices/heart-icon.png" alt="ícone de coração" />
-        </span>
-        <div class="cart-content">
           <span>
-            <img src="slices/cart-icon.png" alt="ícone de carrinho" />
+            <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
           </span>
-          <div class="cart-data">
-            <span class="cart-mycart">Meu carrinho</span>
-            <span class="cart-total">$200,00</span>
+
+          <span>São Paulo, São Paulo</span>
+
+          <div class="menu-search">
+            <input type="text" placeholder="O que você está procurando ?" />
+            <i class="fas fa-search"></i>
+          </div>
+
+          <span>
+            <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+          </span>
+
+          <div class="cart-content">
+            <span>
+              <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+            </span>
+
+            <div class="cart-data">
+              <span class="cart-mycart">Meu carrinho</span>
+              <span class="cart-total">$200,00</span>
+            </div>
+
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </div>
+
+          <div class="user-content">
+            <span>
+              <img src="slices/user-icon.png" alt="Imagem do usuário" />
+            </span>
+            <span>Paulo Almeida</span>
           </div>
         </div>
-        <div class="user-content">
-          <span>
-            <img src="slices/user-icon.png" alt="Imagem do usuário" />
-          </span>
-          <span>Paulo Almeida</span>
-        </div>
       </div>
+
+      <nav class="menu-nav-header">
+        <div class="menu-nav-links">
+          <i class="fa fa-th-large" aria-hidden="true"></i>
+
+          <div class="all-categories">todas categorias</div>
+
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+          <div class="menu-nav-items">
+            <a href="#">Novos Produtos</a>
+            <a href="#">Mais vendidos</a>
+            <a href="#">Promoções</a>
+            <a href="#"> Ofertas</a>
+          </div>
+        </div>
+
+        <div class="menu-nav-promotions">
+          <i class="fa fa-gift fa-lg" aria-hidden="true"></i>
+          <a>Promoções</a>
+        </div>
+      </nav>
     </header>
   </body>
 </html>
