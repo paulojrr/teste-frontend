@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/7cb22acf4d.js"
       crossorigin="anonymous"
@@ -19,13 +24,13 @@
           <h1>
             <img src="slices/logo.png" alt="logo" />
           </h1>
-          <span>Enviar para</span>
+          <span class="menu-items--text">Enviar para</span>
 
           <span>
             <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
           </span>
 
-          <span>São Paulo, São Paulo</span>
+          <span class="menu-items--location">São Paulo, São Paulo</span>
 
           <div class="main-header__menu-search">
             <input type="text" placeholder="O que você está procurando ?" />
@@ -42,8 +47,8 @@
             </span>
 
             <div class="main-header__cart-data">
-              <span class="cart-data__mycart">Meu carrinho</span>
-              <span class="cart-data__total">$200,00</span>
+              <span>Meu carrinho</span>
+              <span>$200,00</span>
             </div>
 
             <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -51,34 +56,34 @@
 
           <div class="main-header__user-content">
             <span>
-              <img src="slices/user-icon.png" alt="Imagem do usuário" />
+              <i class="fa fa-user fa-lg" aria-hidden="true"></i>
             </span>
-            <span>Paulo Almeida</span>
+            <span class="user-content__name">Paulo Almeida</span>
           </div>
         </div>
       </div>
 
-      <nav class="main-header__menu-nav">
+      <div class="main-header__menu-nav">
         <div class="menu-nav__links">
           <i class="fa fa-th-large" aria-hidden="true"></i>
 
-          <div class="menu-nav__all-categories">todas categorias</div>
+          <a class="menu-nav--text">Todas categorias</a>
 
           <i class="fa fa-angle-down" aria-hidden="true"></i>
 
-          <div class="menu-nav__items">
+          <nav class="menu-nav__items">
             <a href="#">Novos Produtos</a>
             <a href="#">Mais vendidos</a>
             <a href="#">Promoções</a>
-            <a href="#"> Ofertas</a>
-          </div>
+            <a href="#">Ofertas</a>
+          </nav>
         </div>
 
         <div class="menu-nav__promotions">
           <i class="fa fa-gift fa-lg" aria-hidden="true"></i>
           <a>Promoções</a>
         </div>
-      </nav>
+      </div>
     </header>
 
     <main class="container">
@@ -412,22 +417,23 @@
           </div>
         </div>
       </section>
-      <footer class="copyright col-md-12">
-        <div>
-          <p>copyright</p>
-        </div>
-        <div>
-          <span>
-            <i class="fa fa-cc-visa" aria-hidden="true"></i>
-          </span>
-          <span>
-            <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-          </span>
-          <span>
-            <i class="fa fa-cc-paypal" aria-hidden="true"></i>
-          </span>
-        </div>
-      </footer>
     </main>
+
+    <footer class="copyright col-md-12">
+      <div>
+        <p>copyright</p>
+      </div>
+      <div>
+        <span>
+          <i class="fa fa-cc-visa" aria-hidden="true"></i>
+        </span>
+        <span>
+          <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+        </span>
+        <span>
+          <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
