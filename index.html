@@ -13,9 +13,9 @@
   </head>
 
   <body>
-    <header class="container main-header">
+    <header class="main-header container">
       <div class="row">
-        <div class="menu-items">
+        <div class="main-header__menu-items">
           <h1>
             <img src="slices/logo.png" alt="logo" />
           </h1>
@@ -27,7 +27,7 @@
 
           <span>São Paulo, São Paulo</span>
 
-          <div class="menu-search">
+          <div class="main-header__menu-search">
             <input type="text" placeholder="O que você está procurando ?" />
             <i class="fas fa-search"></i>
           </div>
@@ -36,20 +36,20 @@
             <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
           </span>
 
-          <div class="cart-content">
+          <div class="main-header__cart-content">
             <span>
               <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
             </span>
 
-            <div class="cart-data">
-              <span class="cart-mycart">Meu carrinho</span>
-              <span class="cart-total">$200,00</span>
+            <div class="main-header__cart-data">
+              <span class="cart-data__mycart">Meu carrinho</span>
+              <span class="cart-data__total">$200,00</span>
             </div>
 
             <i class="fa fa-angle-down" aria-hidden="true"></i>
           </div>
 
-          <div class="user-content">
+          <div class="main-header__user-content">
             <span>
               <img src="slices/user-icon.png" alt="Imagem do usuário" />
             </span>
@@ -58,15 +58,15 @@
         </div>
       </div>
 
-      <nav class="menu-nav-header">
-        <div class="menu-nav-links">
+      <nav class="main-header__menu-nav">
+        <div class="menu-nav__links">
           <i class="fa fa-th-large" aria-hidden="true"></i>
 
-          <div class="all-categories">todas categorias</div>
+          <div class="menu-nav__all-categories">todas categorias</div>
 
           <i class="fa fa-angle-down" aria-hidden="true"></i>
 
-          <div class="menu-nav-items">
+          <div class="menu-nav__items">
             <a href="#">Novos Produtos</a>
             <a href="#">Mais vendidos</a>
             <a href="#">Promoções</a>
@@ -74,7 +74,7 @@
           </div>
         </div>
 
-        <div class="menu-nav-promotions">
+        <div class="menu-nav__promotions">
           <i class="fa fa-gift fa-lg" aria-hidden="true"></i>
           <a>Promoções</a>
         </div>
@@ -83,51 +83,102 @@
 
     <main class="container">
       <div class="row">
-        <div class="main-banner">
+        <section class="main-banner">
           <h3>Mussum Ipsum, cacilds vidis litro abertis.</h3>
           <h2>Aisis, filhis, espiritis <br />santis Cevadis</h2>
           <p>Num tem leite então bota uma pinga</p>
           <a href="#">Comprar agora</a>
-        </div>
+        </section>
       </div>
 
-      <div class="promotion-items">
+      <section class="promotion">
         <div class="row col-md-12">
-          <div class="item col-md-4">
-            <div class="item-description">
+          <div class="promotion__promotion-item col-md-4">
+            <div class="promotion-item__description">
               <span>30% de desconto</span>
               <span>Frutas frescas</span>
               <a href="#">Compre agora</a>
             </div>
 
-            <div class="item-img">
+            <div class="promotion-item__img">
               <img src="/slices/item-img.jpg" alt="Imagem do produto" />
             </div>
           </div>
-          <div class="item col-md-4">
-            <div class="item-description">
+
+          <div class="promotion__promotion-item col-md-4">
+            <div class="promotion-item__description">
               <span>30% de desconto</span>
               <span>Frutas frescas</span>
               <a href="#">Compre agora</a>
             </div>
 
-            <div class="item-img">
+            <div class="promotion-item__img">
               <img src="/slices/item-img.jpg" alt="Imagem do produto" />
             </div>
           </div>
-          <div class="item col-md-4">
-            <div class="item-description">
+
+          <div class="promotion__promotion-item col-md-4">
+            <div class="promotion-item__description">
               <span>30% de desconto</span>
               <span>Frutas frescas</span>
               <a href="#">Compre agora</a>
             </div>
 
-            <div class="item-img">
+            <div class="promotion-item__img">
               <img src="/slices/item-img.jpg" alt="Imagem do produto" />
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="categories">
+        <h2>Mussum Ipsum, cacilds vidis litro</h2>
+        <div class="row col-md-12">
+          <div class="categories__categories-item col-md-3">
+            <div class="categories-item__description">
+              <span>30% de desconto</span>
+              <span>Frutas frescas</span>
+            </div>
+
+            <div class="categories-item__img">
+              <img src="/slices/item-img.jpg" alt="Imagem do produto" />
+            </div>
+          </div>
+
+          <div class="categories__categories-item col-md-3">
+            <div class="categories-item__description">
+              <span>30% de desconto</span>
+              <span>Frutas frescas</span>
+            </div>
+
+            <div class="categories-item__img">
+              <img src="/slices/item-img.jpg" alt="Imagem do produto" />
+            </div>
+          </div>
+
+          <div class="categories__categories-item col-md-3">
+            <div class="categories-item__description">
+              <span>30% de desconto</span>
+              <span>Frutas frescas</span>
+            </div>
+
+            <div class="categories-item__img">
+              <img src="/slices/item-img.jpg" alt="Imagem do produto" />
+            </div>
+          </div>
+
+          <div class="categories__categories-item col-md-3">
+            <div class="categories-item__description">
+              <span>30% de desconto</span>
+              <span>Frutas frescas</span>
+            </div>
+
+            <div class="categories-item__img">
+              <img src="/slices/item-img.jpg" alt="Imagem do produto" />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
