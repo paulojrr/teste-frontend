@@ -191,3 +191,139 @@ body {
   margin-top: 10px;
 }
 /* end section categories */
+
+/* top products */
+.top-products__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-products__title--arrowRight {
+  background: #2f4858;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.top-products__products-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.products-item__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products-item__info--off {
+  border: 1px solid red;
+  color: white;
+  background: red;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.products-item__info--new {
+  border: 1px solid green;
+  color: white;
+  background: green;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.products-item__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-item__description--off {
+  text-decoration: line-through;
+}
+
+.products-item__amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-item__amount__value {
+  display: flex;
+  width: 100px;
+}
+
+.products-item__amount__value > span {
+  text-align: center;
+  width: 100%;
+  border: 1px solid grey;
+}
+/* end top products */
+
+/* start best offers */
+.best-offers__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.best-offers__title--arrowRight {
+  background: #2f4858;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.best-offers__best-offers-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  height: 200px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.best-offers-item__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.best-offers-item__description span {
+  margin: 10px 0 10px 0;
+}
+
+.best-offers__description a {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+/* end best offers*/
+
+/* start newslatter */
+.newslatter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  height: 200px;
+}
+
+.newslatter__subscribe input {
+  margin-right: 10px;
+}
+/* end newslatter */
+
+/* start footer*/
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+}
+/* end footer*/
