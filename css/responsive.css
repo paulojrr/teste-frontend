@@ -1,0 +1,156 @@
+@media (max-width: 440px) {
+  .product-wrapper div {
+    flex: 1;
+  }
+  .footer-wrapper > div {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .newslatter-subscribe input {
+    width: auto;
+  }
+}
+@media (max-width: 524px) {
+  .cart-data {
+    margin-top: 10px;
+  }
+  .fas.fa-search {
+    display: none;
+  }
+  .footer-links {
+    margin-right: 25px;
+  }
+}
+@media (max-width: 640px) {
+  .promotion-wrapper > div {
+    flex-grow: 1;
+  }
+  .footer-links {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 778px) {
+  .header-items span {
+  }
+
+  .header-items {
+  }
+  .header-nav {
+    display: none;
+  }
+
+  .promotion-wrapper > div {
+    flex: 1;
+  }
+  .header-search {
+    width: 400px;
+  }
+  .header-search input {
+    width: 100%;
+  }
+
+  .cart-data {
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+  .fa.fa-shopping-cart.fa-lg,
+  .fa.fa-th-large,
+  .fa.fa-angle-down {
+    display: none;
+  }
+
+  .one,
+  .two,
+  .three {
+    background-color: #2c3e50;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition: 0.3s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: #ecf0f1;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on div {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on div {
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .menu-section.on nav a {
+    margin-right: 30px;
+    transition: 0.5s;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .menu-section.on nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .promotion-wrapper > div {
+    flex: 1;
+  }
+  .product-wrapper > div {
+    flex: 1;
+  }
+}
+
+@media (max-width: 1204px) {
+  .product-item {
+    margin-top: 30px;
+  }
+
+  .product-title {
+    flex-direction: column;
+  }
+}

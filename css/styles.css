@@ -23,6 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .header-items span {
@@ -163,6 +164,7 @@ body {
 
 .promotion-wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 .promotion-content {
   display: flex;
@@ -201,6 +203,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .product-arrowRight {
@@ -215,7 +223,8 @@ body {
 .product-item {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  max-width: 300px;
+  height: 375px;
   background: var(--first-color);
   border-radius: 5px;
   padding: 10px;
@@ -294,6 +303,7 @@ body {
   background: #2980b9;
   height: 200px;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .newslatter span {
@@ -312,6 +322,10 @@ body {
   color: var(--second-color);
   background: var(--first-color);
   margin-right: 10px;
+}
+
+.newslatter-subscribe input:focus {
+  border: 1px solid var(--first-color);
 }
 
 .newslatter-subscribe {
@@ -333,7 +347,7 @@ body {
 .footer-links {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-links h5 {
@@ -361,6 +375,7 @@ body {
   background: #2980b9;
   padding: 0 10px 0 10px;
   color: #fff;
+  flex-wrap: wrap;
 }
 
 .copyright span {
