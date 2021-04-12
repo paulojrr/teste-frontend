@@ -18,264 +18,101 @@
   </head>
 
   <body>
-    <header class="main-header">
+    <header class="header">
       <div class="container">
         <div class="row">
-          <div class="main-header__menu-items">
+          <div class="header-items">
             <h1>
               <img src="slices/logo.png" alt="logo" />
             </h1>
-            <span class="menu-items--text">Enviar para</span>
 
-            <span>
-              <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
-            </span>
-
-            <span class="menu-items--location">São Paulo, São Paulo</span>
-
-            <div class="main-header__menu-search">
+            <div class="header-search">
               <input type="text" placeholder="O que você está procurando ?" />
               <i class="fas fa-search"></i>
             </div>
 
-            <span>
-              <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
-            </span>
-
-            <div class="main-header__cart-content">
+            <div class="cart-content">
               <span>
                 <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
               </span>
 
-              <div class="main-header__cart-data">
+              <div class="cart-data">
                 <span>Meu carrinho</span>
                 <span>$200,00</span>
               </div>
 
               <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </div>
-
-            <div class="main-header__user-content">
-              <span>
-                <i class="fa fa-user fa-lg" aria-hidden="true"></i>
-              </span>
-              <span class="user-content__name">Paulo Almeida</span>
+              <i class="fa fa-user fa-lg" aria-hidden="true"></i>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="main-header__menu-nav">
-          <div class="menu-nav__links">
+      <div>
+        <div class="header-nav">
+          <div>
             <i class="fa fa-th-large" aria-hidden="true"></i>
-
-            <a class="menu-nav--text">Todas categorias</a>
-
+            <a class="nav-text">Todas categorias</a>
             <i class="fa fa-angle-down" aria-hidden="true"></i>
-
-            <nav class="menu-nav__items">
-              <a href="#">Novos Produtos</a>
-              <a href="#">Mais vendidos</a>
-              <a href="#">Promoções</a>
-              <a href="#">Ofertas</a>
-            </nav>
           </div>
 
-          <div class="menu-nav__promotions">
-            <i class="fa fa-gift fa-lg" aria-hidden="true"></i>
-            <a>Promoções</a>
-          </div>
+          <nav class="nav-items">
+            <a href="#">Novidades</a>
+            <a href="#">Mais vendidos</a>
+            <a href="#">Promoções</a>
+            <a href="#">Coleções</a>
+          </nav>
         </div>
       </div>
     </header>
 
-    <main class="container">
+    <main>
       <div class="row">
-        <section class="main-banner">
-          <h3>Mussum Ipsum, cacilds vidis litro abertis.</h3>
-          <h2>Aisis, filhis, espiritis <br />santis Cevadis</h2>
-          <p>Num tem leite então bota uma pinga</p>
-          <a href="#">Comprar agora</a>
+        <section class="carousel-banner">
+          <div class="container">
+            <h3>Mussum Ipsum, cacilds vidis litro abertis.</h3>
+            <h2>Aisis, filhis, espiritis <br />santis Cevadis</h2>
+            <a href="#">Comprar agora</a>
+          </div>
         </section>
       </div>
 
       <section class="promotion">
-        <div class="row col-md-12">
-          <div class="promotion__promotion-item col-md-4">
-            <div class="promotion-item__description">
-              <span class="promotion-item__description--discount">30% off</span>
-              <h3 class="promotion-item__description--title">Moleton Preto</h3>
-              <a href="#">Compre agora</a>
-            </div>
-
-            <div>
-              <img src="/slices/product.webp" alt="Imagem do produto" />
-            </div>
-          </div>
-
-          <div class="promotion__promotion-item col-md-4">
-            <div class="promotion-item__description">
-              <span class="promotion-item__description--discount">30% off</span>
-              <h3 class="promotion-item__description--title">Moleton Preto</h3>
-              <a href="#">Compre agora</a>
-            </div>
-
-            <div>
-              <img src="/slices/product.webp" alt="Imagem do produto" />
-            </div>
-          </div>
-
-          <div class="promotion__promotion-item col-md-4">
-            <div class="promotion-item__description">
-              <span class="promotion-item__description--discount">30% off</span>
-              <h3 class="promotion-item__description--title">Moleton Preto</h3>
-              <a href="#">Compre agora</a>
-            </div>
-
-            <div>
-              <img src="/slices/product.webp" alt="Imagem do produto" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="categories">
-        <h2>Mussum Ipsum, cacilds vidis litro</h2>
-        <div class="row col-md-12">
-          <div class="categories__categories-item item-img-bg-1 col-md-3">
-            <div class="categories-item__description">
-              <span class="item__description--text">Delegadis gente finis</span>
-              <h3 class="item__description--category">Moletons</h3>
-            </div>
-          </div>
-
-          <div class="categories__categories-item item-img-bg-2 col-md-3">
-            <div class="categories-item__description">
-              <span class="item__description--text">Delegadis gente finis</span>
-              <h3 class="item__description--category">Blusas</h3>
-            </div>
-          </div>
-
-          <div class="categories__categories-item item-img-bg-3 col-md-3">
-            <div class="categories-item__description">
-              <span class="item__description--text">Delegadis gente finis</span>
-              <h3 class="item__description--category">Tênis</h3>
-            </div>
-          </div>
-
-          <div class="categories__categories-item item-img-bg-4 col-md-3">
-            <div class="categories-item__description">
-              <span class="item__description--text">Delegadis gente finis</span>
-              <h3 class="item__description--category">Mochilas</h3>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="top-products">
-        <div class="row col-md-12">
-          <div class="top-products__title">
-            <h2>Mussum Ipsum, cacilds vidis litro</h2>
-
-            <span>
-              <i class="fa fa-arrow-left" aria-hidden="true"></i>
-              <span class="top-products__title--arrowRight">
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </span>
-            </span>
-          </div>
-
-          <div class="col-md-3">
-            <div class="top-products__products-item">
-              <div class="products-item__info">
-                <span class="products-item__info--off">50% off</span>
-                <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
-              </div>
-              <div class="products-item__img">
-                <img src="slices/product.webp" alt="Imagem do produto" />
-              </div>
-              <div class="products-item__description">
-                <h3>Moletom</h3>
-                <span class="products-item__description--value">$75,00</span>
-                <span class="products-item__description--off">$150,00</span>
-              </div>
-              <div class="products-item__buy">
-                <div class="products-item__buy__button">
-                  <a href="#">Comprar</a>
+        <div class="container">
+          <div class="row col-md-12">
+            <div class="promotion-wrapper">
+              <div class="promotion-content col-md-3">
+                <div class="promotion-item bg-calcados">
+                  <img src="/slices/product.webp" alt="Imagem do produto" />
                 </div>
-                <i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i>
+                <h3>Calçados</h3>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-3">
-            <div class="top-products__products-item">
-              <div class="products-item__info">
-                <span class="products-item__info--off">50% off</span>
-                <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
-              </div>
-              <div class="products-item__img">
-                <img src="slices/product_2.webp" alt="Imagem do produto" />
-              </div>
-              <div class="products-item__description">
-                <h3>Mochila</h3>
-                <span class="products-item__description--value">$100,00</span>
-                <span class="products-item__description--off">$200,00</span>
-              </div>
-              <div class="products-item__buy">
-                <div class="products-item__buy__button">
-                  <a href="#">Comprar</a>
+              <div class="promotion-content col-md-3">
+                <div class="promotion-item bg-roupas">
+                  <div>
+                    <img src="/slices/product.webp" alt="Imagem do produto" />
+                  </div>
                 </div>
-                <i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i>
+                <h3>Roupas</h3>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-3">
-            <div class="top-products__products-item">
-              <div class="products-item__info">
-                <span class="products-item__info--off">10% off</span>
-                <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
-              </div>
-              <div class="products-item__img">
-                <img src="slices/product_3.webp" alt="Imagem do produto" />
-              </div>
-              <div class="products-item__description">
-                <h3>Casaco</h3>
-                <span class="products-item__description--value">$180,00</span>
-                <span class="products-item__description--off">$200,00</span>
-              </div>
-              <div class="products-item__buy">
-                <div class="products-item__buy__button">
-                  <a href="#">Comprar</a>
+              <div class="promotion-content col-md-3">
+                <div class="promotion-item bg-acessorios">
+                  <div>
+                    <img src="/slices/product.webp" alt="Imagem do produto" />
+                  </div>
                 </div>
-                <i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i>
+                <h3>Acessórios</h3>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-3">
-            <div class="top-products__products-item">
-              <div class="products-item__info">
-                <span class="products-item__info--new">Novo</span>
-                <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
-              </div>
-              <div class="products-item__img">
-                <img src="slices/product_4.webp" alt="Imagem do produto" />
-              </div>
-              <div class="products-item__description">
-                <h3>Boné</h3>
-                <span class="products-item__description--value">$50,00</span>
-                <span
-                  class="products-item__description--off"
-                  style="visibility: hidden"
-                  >$100,00</span
-                >
-              </div>
-              <div class="products-item__buy">
-                <div class="products-item__buy__button">
-                  <a href="#"> Comprar </a>
+              <div class="promotion-content col-md-3">
+                <div class="promotion-item bg-outlet">
+                  <div>
+                    <img src="/slices/product.webp" alt="Imagem do produto" />
+                  </div>
                 </div>
-                <i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i>
+                <h3>Outlet</h3>
               </div>
             </div>
           </div>
@@ -283,118 +120,171 @@
       </section>
 
       <section>
-        <div class="col-md-12">
-          <div class="best-offers__title">
-            <h2>Mussum Ipsum, cacilds vidis litro</h2>
+        <div class="row col-md-12">
+          <div class="container">
+            <div class="product-title">
+              <h2>Mussum Ipsum, cacilds vidis litro</h2>
 
-            <span>
-              <i class="fa fa-arrow-left" aria-hidden="true"></i>
-              <span class="best-offers__title--arrowRight">
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              <span>
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                <span class="product-arrowRight">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </span>
               </span>
-            </span>
-          </div>
-
-          <div class="best-offers__best-offers-item col-md-6">
-            <div class="best-offers-item__description">
-              <span>30% de desconto</span>
-              <span>Frutas frescas</span>
-              <a href="#">Compre agora</a>
             </div>
 
-            <div class="best-offers-item__img">
-              <img src="/slices/item-img.jpg" alt="Imagem do produto" />
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="item-info">
+                  <span class="item-discount">50% off</span>
+                  <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="item-img">
+                  <img src="slices/product.webp" alt="Imagem do produto" />
+                </div>
+                <div class="item-description">
+                  <h3>Moletom</h3>
+                  <span class="item-value">$75,00</span>
+                  <span class="item-off">$150,00</span>
+                </div>
+                <div class="item-buy">
+                  <div class="item-button">
+                    <a href="#">Comprar</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="best-offers__best-offers-item col-md-6">
-            <div class="best-offers-item__description">
-              <span>30% de desconto</span>
-              <span>Frutas frescas</span>
-              <a href="#">Compre agora</a>
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="item-info">
+                  <span class="item-discount">50% off</span>
+                  <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="item-img">
+                  <img src="slices/product_2.webp" alt="Imagem do produto" />
+                </div>
+                <div class="item-description">
+                  <h3>Mochila</h3>
+                  <span class="item-valeu">$100,00</span>
+                  <span class="item-off">$200,00</span>
+                </div>
+                <div class="item-buy">
+                  <div class="item-button">
+                    <a href="#">Comprar</a>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="best-offers-item__img">
-              <img src="/slices/item-img.jpg" alt="Imagem do produto" />
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="item-info">
+                  <span class="item-discount">50% off</span>
+                  <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="item-img">
+                  <img src="slices/product_3.webp" alt="Imagem do produto" />
+                </div>
+                <div class="item-description">
+                  <h3>Mochila</h3>
+                  <span class="item-valeu">$100,00</span>
+                  <span class="item-off">$200,00</span>
+                </div>
+                <div class="item-buy">
+                  <div class="item-button">
+                    <a href="#">Comprar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-item">
+                <div class="item-info">
+                  <span class="product-new">Novo</span>
+                  <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="item-img">
+                  <img src="slices/product_4.webp" alt="Imagem do produto" />
+                </div>
+                <div class="item-description">
+                  <h3>Boné</h3>
+                  <span class="item-value">$50,00</span>
+                  <span style="visibility: hidden">$100,00</span>
+                </div>
+                <div class="item-buy">
+                  <div class="item-button">
+                    <a href="#"> Comprar </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <section class="newslatter col-md-12">
-        <div class="newslatter__infos col-md-6">
-          <h4>Cevadis im ampola pa arma</h4>
-          <p>Quem num gosta di mim que vai caçá sua</p>
+        <div class="col-md-4">
+          <span>
+            Cadastre-se para receber notícias, lançamentos e ganhe 15% de
+            desconto
+          </span>
         </div>
 
-        <div class="newslatter__subscribe col-md-6">
+        <div class="newslatter-subscribe col-md-4">
           <input type="email" placeholder="Digite seu e-mail" />
-          <a href="#">Inscreva-se agora</a>
-        </div>
-      </section>
-
-      <section class="col-md-12">
-        <div>
-          <div class="col-md-3">
-            <h5>icon</h5>
-            <a>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-              <i class="fa fa-whatsapp" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <h5>Copo furadis é disculpa</h5>
-            <ul>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h5>Copo furadis é disculpa</h5>
-            <ul>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h5>Copo furadis é disculpa</h5>
-            <ul>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-              <li>Copo furadis</li>
-            </ul>
-          </div>
+          <button>Cadastrar</button>
         </div>
       </section>
     </main>
 
-    <footer class="copyright col-md-12">
-      <div>
-        <p>copyright</p>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-links col-md-12">
+          <nav class="col-md-3">
+            <ul class="footer-list">
+              <h5>Produtos</h5>
+              <li><a href="#">Calçados</a></li>
+              <li><a href="#">Tênis</a></li>
+              <li><a href="#">Roupas</a></li>
+              <li><a href="#">Acessórios</a></li>
+            </ul>
+          </nav>
+          <nav class="col-md-3">
+            <ul class="footer-list">
+              <h5>Suporte</h5>
+              <li><a href="#">Atendimento ao cliente</a></li>
+              <li><a href="#">Dúvidas frequentes</a></li>
+              <li><a href="#">Tabela de tamanhos</a></li>
+              <li><a href="#">Como comprar</a></li>
+            </ul>
+          </nav>
+          <nav class="col-md-3">
+            <ul class="footer-list">
+              <h5>Privacidade & termos</h5>
+              <li><a href="#">Termos e condições </a></li>
+              <li><a href="#">Politica de privacidade </a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div>
-        <span>
-          <i class="fa fa-cc-visa" aria-hidden="true"></i>
-        </span>
-        <span>
-          <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-        </span>
-        <span>
-          <i class="fa fa-cc-paypal" aria-hidden="true"></i>
-        </span>
+
+      <div class="copyright">
+        <div>
+          <p>Copyright © 2021 Ecommerce. Todos os direitos reservados.</p>
+        </div>
+        <div>
+          <span>
+            <i class="fa fa-cc-visa fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-cc-mastercard fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-cc-paypal fa-2x" aria-hidden="true"></i>
+          </span>
+        </div>
       </div>
     </footer>
   </body>
