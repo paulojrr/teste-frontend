@@ -310,9 +310,6 @@ body {
   margin: 10px 0 10px 0;
 }
 
-.categories-item__img {
-}
-
 .categories-item__description a {
   border: 1px solid grey;
   padding: 10px;
@@ -331,19 +328,20 @@ body {
 }
 
 .top-products__title--arrowRight {
-  background: #2f4858;
+  background: var(--third-color);
   color: white;
   padding: 10px;
   border-radius: 50%;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .top-products__products-item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 200px;
-  border: 1px solid grey;
+  width: 250px;
+  background: #fff;
+  border-radius: 5px;
   padding: 10px;
 }
 .products-item__info {
@@ -355,15 +353,21 @@ body {
   border: 1px solid red;
   color: white;
   background: red;
-  border-radius: 10px;
+  border-radius: 15px;
+  font-weight: 500;
   padding: 5px;
+}
+
+.products-item__img {
+  align-self: center;
 }
 
 .products-item__info--new {
   border: 1px solid green;
   color: white;
   background: green;
-  border-radius: 10px;
+  border-radius: 15px;
+  font-weight: 500;
   padding: 5px;
 }
 
@@ -372,25 +376,45 @@ body {
   flex-direction: column;
 }
 
+.products-item__description--value {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
 .products-item__description--off {
   text-decoration: line-through;
+  color: #cbcbcb;
 }
 
-.products-item__amount {
+.products-item__buy {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
-.products-item__amount__value {
+.products-item__buy__button a {
+  background: var(--third-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 130px;
   display: flex;
-  width: 100px;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-top: 5px;
 }
 
-.products-item__amount__value > span {
-  text-align: center;
-  width: 100%;
-  border: 1px solid grey;
+.products-item__buy__button a:hover {
+  text-decoration: none;
 }
+
+.fa.fa-shopping-bag.fa-lg {
+  background: var(--third-color);
+  border-radius: 50%;
+  padding: 10px;
+  color: #fff;
+}
+
 /* end top products */
 
 /* start best offers */
