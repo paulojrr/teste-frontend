@@ -125,9 +125,8 @@ body {
   border-radius: 5px;
   margin-top: 20px;
   padding: 20px;
-  background-image: url('../slices/banner_outfit.jpg');
+  background: url('../slices/banner_outfit.jpg') no-repeat bottom/cover;
   height: 500px;
-  background-size: 100% 500px;
 }
 
 .carousel-banner h3 {
